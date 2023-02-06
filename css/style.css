@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    color:black;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(160, 167, 172);
+    box-shadow: 10px 10px 0px green;
+    position: relative;
+
+}
+
+.gradient{
+    width:1500px;
+    height:4094px;
+    background-image: linear-gradient(pink,pink, yellow, yellow );
+}
+.visible{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow:visible;
+}
+.hidden{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow:hidden;
+}
+.auto{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: auto;
+}
+.scroll{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    overflow: scroll;
+}
+.without{
+    width: 200px;
+    height: 200px;
+}
+.blur{
+    width: 200px;
+    height: 200px;
+    filter: blur(5px);
+}
+.hue{
+    width: 200px;
+    height: 200px;
+    filter: hue-rotate(70deg);
+}
+.hue:hover{
+     transform:scale(1.5);
+}
+.bright{
+    width: 200px;
+    height: 200px;
+    filter:brightness(150%)
+}
+.bright:hover{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+.invert{
+    width: 200px;
+    height: 200px;
+    filter: invert(80%);
+}
+.gray{
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+}
+.saturate{
+    width: 200px;
+    height: 200px;
+    filter: saturate(100%);
+}
+.sepia{
+    width: 200px;
+    height: 200px;
+    filter: sepia(70%);
+}
+.blur:hover{
+    width: 200px;
+    height: 200px;
+    filter: none;
+}
+.without:hover{
+    width: 200px;
+    height: 200px;
+    filter: blur(5px);
+}
